@@ -1,0 +1,83 @@
+.main-logo {
+    background-image: url(https://picsum.photos/50);
+    background-size: cover;
+    background-position: center;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.form-section {
+    flex: 1;
+}
+
+.result-section {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 10px;
+    min-height: 200px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 60%;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    min-height: 80px;
+    resize: none;
+}
+
+input[type="radio"] {
+    margin-left: 5px;
+}
+
+.btn-submit {
+    width: calc(60% + 130px); /* sama lebar dengan input */
+    padding: 8px;
+    background-color: #bb2323;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #ddd;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 12px;
+}
+
